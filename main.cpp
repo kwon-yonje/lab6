@@ -6,7 +6,7 @@ namespace kwonyonje2649061
     void printHolidayArray(const holiday a[], const int n)
     {
         for (int i=0; i<n; ++i)
-            std::cout < a[i];
+            std::cout << a[i];
         std::cout << std::endl;
     }
 }
@@ -23,7 +23,7 @@ int main()
     std::cin >> a[3];
 
     std::array<holiday, n> arr;
-    for (int i =0; i< arr.size() ; ++i;)
+    for (int i =0; i< arr.size() ; ++i)
         arr.at(i) = a[i]; 
     for (const auto& arri : arr)
         arri.print();

@@ -47,11 +47,11 @@ namespace kwonyonje2649061
             is >> h.parkingEnforcement;
             return is;
          }
-         const std::string& getName() {const return name};
-         void setName(const std::string& n) {name=n};
-         const dayOfYear& getD() const { return d; }
-         void setD(const dayOfYear& a) { d=a; }
-         void setparkingEnforcement(bool p) {parkingEnforcement = p};
+         const std::string& getName() const {return name;}
+         void setName(const std::string& n) {name=n;}
+         const dayOfYear& getD() const {return d;}
+         void setD(const dayOfYear& a) {d=a;}
+         void setparkingEnforcement(bool p) {parkingEnforcement = p;}
     };
 }
 
